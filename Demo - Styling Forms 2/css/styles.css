@@ -1,0 +1,126 @@
+body {
+    background-image: url(../img/page-background.gif);
+    background-repeat: repeat-x;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* Nav Element */
+
+.site-navigation {
+    height: 155px;
+}
+
+.site-navigation img {
+    margin-top: 16px;
+}
+
+.site-navigation ul {
+    width: 490px;
+    margin: 0 auto;
+}
+
+.site-navigation li {
+    margin: 8px 25px;
+    float: left;
+}
+
+.site-navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-navigation a:hover {
+    padding-bottom: 2px;
+    border-bottom: 1px solid white;
+}
+
+/* Header Element */
+
+.contact-us h1 {
+    line-height: 0.8;
+    font-size: 72px;
+    color: #7a777c;
+    width: 450px;
+    border-bottom: 1px solid #d9d9d9;
+    margin: auto;
+    margin-top: 115px;
+    padding-bottom: 42px;
+}
+
+.hidden {
+    display: none;
+}
+
+/** Form **/
+label{
+    font-family: Verdana;
+    color: #cacaca;
+    display: block;
+    font-size: 12px;
+    margin: 52px;
+}
+input,
+button{
+    width: 317px;
+    border: 1px solid #c4c4c4;
+    background-color: #efefef;
+    line-height: 30px;
+    padding-left: 44px;
+}
+
+textarea{
+    max-width: 317px;
+    min-width: 317px;
+    max-height: 154px;
+    min-height: 154px;
+    border: 1px solid #c4c4c4;
+    background-color: #efefef;
+    line-height: 30px;
+    padding-left: 44px;
+    background-image: url(../img/flag.png);
+    background-repeat: no-repeat;
+}
+
+.your-name input{
+    background-image: url(../img/name.png);
+    background-repeat: no-repeat;
+}
+
+.email-address input{
+    background-image: url(../img/mail.png);
+    background-repeat: no-repeat;
+}
+
+.phone-number input{
+    background-image: url(../img/phone.png);
+    background-repeat: no-repeat;
+}
+
+.submit-button input[type=submit]{
+    padding: 0;
+    text-align: center;
+    width: 120px;
+    color: #8a8b8e;
+}
+.submit-button input[type=submit]:hover{
+    cursor: pointer;
+}
+
+/* .submit-button button{
+    padding: 0;
+    text-align: center;
+    width: 120px;
+    color: #8a8b8e;
+}
+
+.submit-button button:hover{
+    cursor: pointer;
+} */
